@@ -1,0 +1,20 @@
+[
+	{
+		"taskid":1,
+		"sendnotifications":true,
+		"notifications": {
+			"email":"vincentkyle@gmail.com",
+			"text":"",
+			"browser":true
+		}
+	},
+	{
+		"taskid":2,
+		"sendnotifications":false,
+		"notifications": {
+			"email":"vincentkyle@yahoo.com",
+			"text":"",
+			"browser":true
+		}
+	}
+]

@@ -1,0 +1,44 @@
+<!doctype html>
+<html ng-app="harshTaskMaster">
+<head>
+	<title>TaskMatrix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TODO: load these dynamically -->
+	<script src="js/jq.js"></script>
+	<script src="../bs/js/bootstrap.min.js"></script>
+	<script src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="js/angular-resource.js"></script>
+	<script src="../bs/selectize.js/dist/js/standalone/selectize.min.js"></script>
+	<script src="../bs/datepicker/js/bootstrap-datepicker.js"></script>
+	<script src="../bs/wysihtml5/dist/parser_rules/advanced.js"></script>
+	<script src="../bs/bootstrap3-wysiwyg/dist/bootstrap3-wysihtml5.all.min.js"></script>
+	<script src="../bs/bootstrap-table/dist/bootstrap-table.min.js"></script>
+    
+	<script src="js/app.js"></script>
+	<script type="text/javascript" src="js/resources/task.js"></script>
+	<!--
+	<script type="text/javascript" src="js/resources/frequency.js"></script>
+	<script type="text/javascript" src="js/resources/owner.js"></script>
+	-->
+	<script type="text/javascript" src="js/services/metaService.js"></script>
+	<script src="js/controllers/taskListController.js"></script>
+	<script src="js/controllers/taskDetailController.js"></script>
+    
+	<script type="text/javascript" src="js/directives/taskList.js"></script>
+	<script type="text/javascript" src="js/directives/taskListItem.js"></script>
+    
+
+	<link rel="stylesheet" href="../bs/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/taskmatrix.css" />
+	<link rel="stylesheet" href="../bs/selectize.js/dist/css/selectize.css" />
+	<link rel="stylesheet" href="../bs/selectize.js/dist/css/selectize.bootstrap3.css" />
+	<link rel="stylesheet" href="../bs/datepicker/css/datepicker.css" />
+	<link rel="stylesheet" href="../bs/bootstrap3-wysiwyg/dist/bootstrap3-wysihtml5.min.css" />
+	<link rel="stylesheet" href="../bs/bootstrap-table/dist/bootstrap-table.min.css" />
+	<link rel="stylesheet" href="../font-awesome-4.5.0/css/font-awesome.min.css" />
+</head>
+<body>
+	<div ui-view="main"></div>
+</body>
+</html>

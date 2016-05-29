@@ -1,0 +1,40 @@
+<form name="taskDetailForm" ng-submit="taskDetailForm.$valid && taskDetailCtrl.saveTask">
+<div id="taskDetail">
+	<span class="h2" id="taskNameDisplay">Task Name:{{task.taskName}}</span>
+	<div id="detailContainer">
+		<div id="lastRunDate" class="small" data-text="Last run: "></div>
+	</div>
+	<div class="small" id="showHistoryLink" data-taskid="">
+		Show task history?
+	</div>
+	<div class="input-group">
+		<!--<span class="input-group-addon" id="basic-addon1">@</span>-->
+		<label for="taskName">Name</label><input ng-model="task.Task" type="text" class="form-control labelValue" placeholder="Task Name" id="taskName">
+	</div>
+	<div class="input-group">
+		<!--<select class="form-control" id="Owner" placeholder="Task Owner"></select>-->
+		<label for="Owner">Owner</label><input ng-model="task.Owner" type="text" class="form-control labelValue" placeholder="Owner" id="Owner">
+	</div>
+	<div class="input-group">
+		<label for="Frequency">Frequency</label><select ng-model="task.Frequency" class="form-control labelValue" id="Frequency" placeholder="How often does this task need to be performed?"></select>
+	</div>
+	<div class="input-group dateFilter">
+		<span class="input-group-addon glyphicon glyphicon-calendar" aria-hidden="true" id="calendar-icon-from"></span>
+		<input ng-model="task.dateFrom" type="text" class="form-control" placeholder="From" id="dateFrom" aria-describedby="calendar-icon-from">
+	</div>
+	<div class="input-group dateFilter">
+		<span class="input-group-addon glyphicon glyphicon-calendar" aria-hidden="true" id="calendar-icon-to"></span>
+		<input ng-model="task.dateTo" type="text" class="form-control" placeholder="To" id="dateTo" aria-describedby="calendar-icon-to">
+	</div>
+
+	<div class="input-group well">
+		<textarea ng-model="task.Notes" id="Notes" placeholder="Task detail information" class="boxsizingBorder"></textarea>
+	</div>
+	<div class="input-group">
+		<input type="checkbox" name="sendNotifications" id="sendNotifications"> Send notifications to...<br>
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" value="text" disabled="true" />Text
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" value="email" disabled="true" />Email
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" data-task="" value="bnowser" disabled="true" />Browser notification
+	</div>
+</div>
+</form>

@@ -1,0 +1,60 @@
+* {
+padding: 0;
+margin: 0;
+}
+html, body {
+/*height: 100%;*/
+padding-top: 70px;
+}
+
+@media (min-width: 768px){
+	#taskDisplayContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	/*width: 50%;*/
+	overflow-y: scroll;
+	}
+
+	#taskDetailContainer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	overflow-y: scroll;
+	/*width: 50%;*/
+	}
+	.taskPane {
+	margin-top: 70px;
+	}
+	.glyphicon {
+	position: initial !important;
+	}
+	.textarea{
+		background-color: white;
+		border: 1px solid black;
+	}
+	.labelValue {
+		width: 212px !important;
+	}
+	.largeEdit {
+		/* border: 0; */
+		border: none !important;
+		font-size: 30px;
+		-webkit-appearance: none;
+		width: 300px !important;
+		outline: none !important;
+		padding-left: 0px;
+	}
+	.largeEdit:focus{
+		outline: none !important;
+		outline-style: none;
+	}
+	.spacer {
+		margin-top: 20px; /* define margin as you see fit */
+	}
+	.editControl {
+		min-width: 285px;
+	}
+}

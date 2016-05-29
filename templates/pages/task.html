@@ -1,0 +1,65 @@
+<form name="taskDetailForm">
+<div id="taskDetail">
+	<!--<span class="h2" id="taskNameDisplay">{{task.TaskName}}</span>-->
+	<div id="detailContainer">
+		<div id="lastRunDate" class="small" data-text="Last run: "></div>
+	</div>
+	<div class="small" id="showHistoryLink" data-taskid="">
+		Show task history
+	</div>
+	<div class="row">
+		<div class="col-md-12 col-xs-12">
+			<div class="input-group inputFilter">
+				<!--<label for="taskName">Name</label>-->
+				<input ng-model="task.TaskName" type="text" class="form-control labelValue largeEdit" placeholder="Task Name" id="taskName">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-xs-12">
+			<div class="input-group inputFilter">
+				<label for="Owner">Owner</label>
+				<selectize class="editControl" id="Owner" config='owner.config' options='owners' ng-model="task.Owner"></selectize>
+			</div>
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<div class="input-group inputFilter">
+				<label for="Frequency">Frequency</label>
+				<selectize class="editControl" id="Frequency" config='frequency.config' options='frequencies' ng-model="task.Frequency"></selectize>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-xs-12">
+			<div class="input-group inputFilter">
+				<!--<label for="dateFrom">Start</label>-->
+				<div class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true" id="calendar-icon-from"></span> Start</div>
+				<input datetimepicker ng-model="task.StartPeriod" type="text" class="form-control labelValue" placeholder="From" id="dateFrom" aria-describedby="calendar-icon-from">
+			</div>
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<div class="input-group inputFilter">
+				<!--<label for="dateTo">End</label>-->
+				<div class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true" id="calendar-icon-to"></span> End</div>
+				<input datetimepicker ng-model="task.EndPeriod" type="text" class="form-control labelValue" placeholder="To" id="dateTo" aria-describedby="calendar-icon-to">
+			</div>
+		</div>
+	</div>
+	<div class="row spacer">
+		<div class="col-md-12">
+			<div class="input-group well">
+				<!--<textarea ng-model="task.Notes" id="Notes" placeholder="Task detail information" class="boxsizingBorder"></textarea>-->
+				<div class="textarea cold-md-12" id="Notes" ng-model="task.Notes"></div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="input-group">
+		<input type="checkbox" name="sendNotifications" id="sendNotifications" ng-model="task.settings.sendnotifications"> Send notifications to...<br>
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" value="text" ng-disabled="!task.settings.sendnotifications" ng-model="task.settings.notifications.text" />Text
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" value="email" ng-disabled="!task.settings.sendnotifications" ng-model="task.settings.notifications.email" />Email
+		<input type="checkbox" class="notificationCheckbox" name="notificationDestination" data-task="" value="browser" ng-disabled="!task.settings.sendnotifications" ng-model="task.settings.notifications.browser" />Browser notification
+	</div>
+</div>
+</form>

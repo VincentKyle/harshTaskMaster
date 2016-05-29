@@ -1,0 +1,33 @@
+[
+	{
+		"label":"Once",
+		"value":"Once"
+	},
+	{	"label":"Daily",
+		"value":"Daily"
+	},
+	{
+		"label":"Every 3 days",
+		"value":"Every 3 days"
+	},
+	{
+		"label":"Weekly",
+		"value":"Weekly"
+	},
+	{
+		"label":"Bi-weekly",
+		"value":"Bi-weekly"
+	},
+	{
+		"label":"Monthly",
+		"value":"Monthly"
+	},
+	{
+		"label":"Quarterly",
+		"value":"Quarterly"
+	},
+	{
+		"label":"Annually",
+		"value":"Annually"
+	}
+]

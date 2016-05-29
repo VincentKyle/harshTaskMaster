@@ -1,0 +1,13 @@
+<div ui-view="header"></div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3 well taskPane" id="taskDisplayContainer">
+			<div id="taskDisplay" class="list-group" ui-view="tasks">
+				<task-list></task-list>
+			</div>
+		</div>
+		<div class="col-md-9 taskPane" id="taskDetailContainer" ui-view="taskdetail">
+			
+		</div>
+	</div>
+</div>

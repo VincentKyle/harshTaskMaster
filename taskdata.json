@@ -1,0 +1,209 @@
+[
+  {
+    "TaskName":"Clean bathrooms",
+    "Frequency":"Weekly",
+    "StartPeriod":"01-01-16",
+    "EndPeriod":"12-31-16",
+    "Owner":"Vincent Santamauro",
+    "LastRun":"",
+	"Notes":"This is a test of notes",
+    "id":1
+  },
+  {
+    "TaskName":"Laundry-clothes",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":2
+  },
+  {
+    "TaskName":"Laundry-towels",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":3
+  },
+  {
+    "TaskName":"Clean master bedroom",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":4
+  },
+  {
+    "TaskName":"Clean kids' room",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Dylan Santamauro; Aria Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":5
+  },
+  {
+    "TaskName":"Empty dehumidifier",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":6
+  },
+  {
+    "TaskName":"Clean litterboxes",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":7
+  },
+  {
+    "TaskName":"Make sure cats have food/water",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+    "LastRun":"",
+    "id":8
+  },
+  {
+    "TaskName":"Replace AC filters",
+    "Frequency":"Every 3 months",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":9
+  },
+  {
+    "TaskName":"Clean first floor flooring",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":10
+  },
+  {
+    "TaskName":"Scrub first floor fireplace",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+	"Notes":"This is a test of notes",
+    "LastRun":"",
+    "id":11
+  },
+  {
+    "TaskName":"Clean living room",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":12
+  },
+  {
+    "TaskName":"Clean dining room",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":13
+  },
+  {
+    "TaskName":"Clean kitchen",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":14
+  },
+  {
+    "TaskName":"Clear out refrigerator",
+    "Frequency":"Weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":15
+  },
+  {
+    "TaskName":"Scrub refrigerator",
+    "Frequency":"Monthly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+    "LastRun":"",
+    "id":16
+  },
+  {
+    "TaskName":"Dishes",
+    "Frequency":"Daily",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Adam Landon",
+    "LastRun":"",
+    "id":17
+  },
+  {
+    "TaskName":"Organize basement",
+    "Frequency":"Quarterly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+    "LastRun":"",
+    "id":18
+  },
+  {
+    "TaskName":"Organize attic",
+    "Frequency":"Quarterly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Carolyn Santamauro",
+    "LastRun":"",
+    "id":19
+  },
+  {
+    "TaskName":"Sweep backyard",
+    "Frequency":"Bi-weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+    "LastRun":"",
+    "id":20
+  },
+  {
+    "TaskName":"Sweep Bladen's Court",
+    "Frequency":"Bi-weekly",
+    "StartPeriod":"",
+    "EndPeriod":"",
+    "Owner":"Vincent Santamauro",
+    "LastRun":"",
+    "id":21
+  },
+  {
+    "TaskName":"Water flowers",
+    "Frequency":"Every 3 days",
+    "StartPeriod":"06/01/15",
+    "EndPeriod":"10/01/15",
+    "Owner":"Vincent Santamauro",
+    "LastRun":"",
+    "id":22
+  }
+]
